@@ -1,0 +1,46 @@
+body{
+    background-color:skyblue
+}
+
+h1 {
+  color: black;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.flag {
+  width: 120px;        
+  object-fit: contain; 
+  margin: 10px;
+  display: inline-block;
+}
+
+.flag-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+.flag {
+  width: 120px;
+  border-radius: 6px;
+  transition: transform 0.3s;
+}
+
+.flag:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
